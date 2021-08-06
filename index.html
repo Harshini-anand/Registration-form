@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <h1> APPLICATION FORM </h1>
+        </title>
+        <style>
+            input[type=text],select{
+              width: 100;
+              padding: 8px 15px;
+              margin: 8px 0;
+              display: inline-block;
+              border:1px solid rgb(247, 243, 243);
+              border-radius:4px;
+              box-sizing:border-box;
+              
+          }
+          input[type=submit]{
+           width: 100;
+           background-color: #4CAF50;
+           color:white;
+              padding:7px 10px;
+              margin: 4px 0;
+              border:none;
+              border-radius:4px;
+              cursor:pointer;
+
+          }
+          input[type=submit]:hover{
+              background-color: thistle;
+          }
+        
+          div{
+              border-radius:8px;
+              background-color: #f2f2f2;
+              padding: 30px;
+
+          }
+        
+
+          
+      </style>
+    </head>
+    <body>
+         <form>
+             <fieldset>
+                 <legend> APPLICATION FORM </legend>
+                 <table width="600px">
+                     <table bgcolor="#e32d7a">
+                         
+                     <tr>
+                         <td><label for "first_name">First Name : </label><span class="required">*</span> </td><td><input  type ="text" name="" placeholder="Enter your first name"></td>
+                     </tr>
+                     <tr>
+                        <td> Last Name : <span class="required">*</span> </td><td><input type ="text" name="" placeholder="Enter your last name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email : <span class="required">*</span></td><td> <input type ="email" name="" placeholder="Enter your mail address"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender : <span class="required">*</span></td> 
+                        <td>
+                            <input type ="radio" name ="gender">Male
+                            <input type ="radio" name="gender">Female
+                            <input type ="radio" name="gender">Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            State :
+                        </td>
+                        <td>
+                            <select>
+                                <option> select </option>
+                                <option> Tamilnadu </option>
+                                <option> Kerala </option>
+                                <option> Karnataka </option>
+                                <option> Goa </option>
+                                <option> Delhi </option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Address : <span class="required">*</span> </td><td><input type ="textarea" name="" placeholder="Enter your name" <textarea id="address" name="address" style="height:100px"  style=width:200px"></textarea>
+                        </td></tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nationality :
+                        </td>
+                        <td>
+                            <select>
+                                <option> select </option>
+                                <option> Indian </option>
+                                <option> English </option>
+                                <option> Britian </option>
+                                <option> French </option>
+                                <option> Greek </option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+                     <tr>
+                         <td>
+                             Skills :
+                         </td>
+                         <td>
+                             <input type="checkbox" namr="skills">Asp.Net
+                             <input type="checkbox" namr="skills">jQuery<br>
+                             <input type="checkbox" namr="skills">MVC
+                             <input type="checkbox" namr="skills">Spl Server<br>
+                         </td>
+                     </tr>
+                    <tr>
+                        <td> Post applying for :</td>
+                        <td>
+                            <input type ="radio" name="post">Trainee 
+                            <input type ="radio" name="post">Software Engineer <br>
+                            <input type ="radio" name="post">Team Leader 
+                            <input type ="radio" name="post">Project manager<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <br>
+                        <td>
+                            Upload
+                            resume : <span class="required">*</span>
+                        </td>
+                        <td>
+                            <input type="file" name ="resume">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Paste your resume :
+                        </td>
+                        <td>
+                            <textarea name="" rows="5" cols="20">
+                                Sample resume text....
+                             </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name ="" > notify me <span class="required">*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type= "checkbox" name=""> I have read and accept the <a href="terms.html">Terms and Conditions </a> <span class="required">*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name ="">
+                            <input type ="reset" name="">
+                        </td>
+                    </tr>
+                 </table>
+             </fieldset>
+         </form>
+    </body>
+</html>
