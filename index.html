@@ -11,7 +11,7 @@
               margin: 8px 0;
               display: inline-block;
               border:1px solid rgb(247, 243, 243);
-              border-radius:4px;
+              border-radius:6px;
               box-sizing:border-box;
               
           }
@@ -33,7 +33,7 @@
           div{
               border-radius:8px;
               background-color: #f2f2f2;
-              padding: 30px;
+              padding: 10px;
 
           }
         
@@ -45,20 +45,21 @@
          <form>
              <fieldset>
                  <legend> APPLICATION FORM </legend>
+                 <div>
                  <table width="600px">
                      <table bgcolor="#e32d7a">
                          
                      <tr>
-                         <td><label for "first_name">First Name : </label><span class="required">*</span> </td><td><input  type ="text" name="" placeholder="Enter your first name"></td>
+                         <td><label for "first_name"><h3 style="text-align:center ;"> First Name :</label><span class="required">*</span></h3> </td><td><input  type ="text" name="" placeholder="Enter your first name"></td>
                      </tr>
                      <tr>
-                        <td> Last Name : <span class="required">*</span> </td><td><input type ="text" name="" placeholder="Enter your last name"></td>
+                        <td> <h3 style="text-align:center ;">Last Name : <span class="required">*</span></h3> </td><td><input type ="text" name="" placeholder="Enter your last name"></td>
                     </tr>
                     <tr>
-                        <td>Email : <span class="required">*</span></td><td> <input type ="email" name="" placeholder="Enter your mail address"></td>
+                        <td><h3 style="text-align:center ;">Email : <span class="required">*</span></h3></td><td> <input type ="email" name="" placeholder="Enter your mail address"></td>
                     </tr>
                     <tr>
-                        <td>Gender : <span class="required">*</span></td> 
+                        <td><h3 style="text-align:center ;">Gender : <span class="required">*</span></h3></td> 
                         <td>
                             <input type ="radio" name ="gender">Male
                             <input type ="radio" name="gender">Female
@@ -67,7 +68,7 @@
                     </tr>
                     <tr>
                         <td>
-                            State :
+                            <h3 style="text-align:center ;">State : </h3>
                         </td>
                         <td>
                             <select>
@@ -83,12 +84,12 @@
                     </tr>
 
                     <tr>
-                        <td> Address : <span class="required">*</span> </td><td><input type ="textarea" name="" placeholder="Enter your name" <textarea id="address" name="address" style="height:100px"  style=width:200px"></textarea>
+                        <td><h3 style="text-align:center ;"> Address : <span class="required">*</span> </h3></td><td><input type ="textarea" name="" placeholder="Enter your name" <textarea id="address" name="address" style="height:100px"  style=width:200px"></textarea>
                         </td></tr>
                     </tr>
                     <tr>
                         <td>
-                            Nationality :
+                            <h3 style="text-align:center ;">Nationality : </h3>
                         </td>
                         <td>
                             <select>
@@ -104,7 +105,7 @@
                     </tr>
                      <tr>
                          <td>
-                             Skills :
+                            <h3 style="text-align:center ;">Skills : </h3>
                          </td>
                          <td>
                              <input type="checkbox" namr="skills">Asp.Net
@@ -114,7 +115,7 @@
                          </td>
                      </tr>
                     <tr>
-                        <td> Post applying for :</td>
+                        <td> <h3 style="text-align:center ;">Post applying for : </h3></td>
                         <td>
                             <input type ="radio" name="post">Trainee 
                             <input type ="radio" name="post">Software Engineer <br>
@@ -125,8 +126,7 @@
                     <tr>
                         <br>
                         <td>
-                            Upload
-                            resume : <span class="required">*</span>
+                            <h3 style="text-align:center ;">Upload resume : <span class="required">*</span></h3>
                         </td>
                         <td>
                             <input type="file" name ="resume">
@@ -134,7 +134,7 @@
                     </tr>
                     <tr>
                         <td>
-                            Paste your resume :
+                            <h3 style="text-align:center ;">Paste your resume : </h3>
                         </td>
                         <td>
                             <textarea name="" rows="5" cols="20">
@@ -159,6 +159,7 @@
                         </td>
                     </tr>
                  </table>
+                </div>
              </fieldset>
          </form>
     </body>
